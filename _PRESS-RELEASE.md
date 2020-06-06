@@ -17,28 +17,28 @@ Once the project moves into development, the press release can be used as a touc
  -->
  
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+  > Destiny 2 Weapon Finder 
 
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  > For Destiny 2 Gamers
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  > An app to find any Destiny 2 weapon based off type, archetype, and season.
 
 ## Problem ##
-  > Describe the problem your product solves.
+  > Allows a quick lookup of any weapons you may want to aquire in game.
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+  > Sorts weapons based on type, archetype, and season.
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  > This quick app will help you find your new main gun!
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  > Just set the catigories you're looking for up at the top and click search. It's that simple.
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  > This was awsome! Made finding the stats on a ptoential God Roll super fast.
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+  > Check out the app! (link)
