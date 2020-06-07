@@ -8,17 +8,19 @@ app.use(express.static(`${__dirname}/../public`));
 app.use(express.json());
 
 app.get('/getguns/:weaponType', (req, res) => {
-  console.log(req.params);
   db.testGet(req.params.weaponType, (err, data) => {
     if (err) {
-      console.log('Kill yourself', err);
       return res.status(400).end();
-    } else {
-      return res.status(200).send(data).end();
     }
+    const result = [];
+    data.forEach((item) => {
+      result.push(JSON.parse(item.json));
+    });
+    return res.status(200).send(result).end();
   });
 });
 
 app.listen(PORT, () => {
+  // eslint-disable-next-line no-console
   console.log(`Listening at port:${PORT}`);
 });
