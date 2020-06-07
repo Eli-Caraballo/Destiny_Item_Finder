@@ -33,3 +33,6 @@ bower_components/
 .floobit
 .floo
 .flooignore
+
+#Everything Else
+world_sql_content_fb6da8486a28534b955449515bc04bfc.sqlite3
