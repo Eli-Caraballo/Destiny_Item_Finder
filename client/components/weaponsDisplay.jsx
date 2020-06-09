@@ -1,8 +1,10 @@
+/* eslint-disable array-callback-return */
+/* eslint-disable import/extensions */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable react/prop-types */
 import React, { useState } from 'react';
-import axios from 'axios';
+import stats from '../../weaponStats.js';
 
 const WeaponsDisplay = ({ guns }) => {
   const [details, setDetails] = useState('');
@@ -28,8 +30,23 @@ const WeaponsDisplay = ({ guns }) => {
                 <div className="details">
                   <img src={`https://www.bungie.net/${gun.screenshot}`} alt="Weapon" />
                   <div className="fadebox">
-                    <h4>{gun.displayProperties.name}</h4>
-                    <h6>{gun.displayProperties.description}</h6>
+                    <h2>{gun.displayProperties.name}</h2>
+                    <h3>{gun.displayProperties.description}</h3>
+                    {
+                      // eslint-disable-next-line consistent-return
+                      gun.investmentStats.map((item) => {
+                        if (item.value > 0) {
+                          // eslint-disable-next-line no-bitwise
+                          const id = item.statTypeHash >> 32;
+                          return (
+                            <div>
+                              <div>{`${stats[id].displayProperties.name}: ${stats[id].displayProperties.description}`}</div>
+                              <div>{item.value}</div>
+                            </div>
+                          );
+                        }
+                      })
+                    }
                   </div>
                 </div>
               )
@@ -43,6 +60,3 @@ const WeaponsDisplay = ({ guns }) => {
 };
 
 export default WeaponsDisplay;
-
-
-// `https://www.bungie.net/${gun.screenshot}`
