@@ -32,7 +32,7 @@ const WeaponsDisplay = ({ guns }) => {
               {
                 details === gun.hash ? (
                   <div className="details">
-                    <img src={`https://www.bungie.net/${gun.screenshot}`} alt="Weapon" />
+                    <img className="weapon" src={`https://www.bungie.net/${gun.screenshot}`} alt="Weapon" />
                     <div className="fadebox">
                       Stats:
                       <h2 className="name">{gun.displayProperties.name}</h2>

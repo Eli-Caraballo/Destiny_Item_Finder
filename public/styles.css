@@ -53,9 +53,11 @@ body {
 .weapons {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-row-gap: 20px;
   grid-template-rows: auto;
   align-content: center;
 }
+
 
 .item {
   justify-self: center;
@@ -65,6 +67,10 @@ body {
 .details {
   position: absolute;
   left: 0px;
+}
+
+.weapon {
+  width: 100%;
 }
 
 .fadebox {
