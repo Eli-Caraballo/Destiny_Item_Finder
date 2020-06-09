@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'futurist_fixed-widthregular';
+  src: url('futurist_fixed-width-webfont.woff2') format('woff2'),
+       url('futurist_fixed-width-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-color: aliceblue;
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  font-family: 'futurist_fixed-widthregular';
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 550%;
+}
+
+.D2image {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: -250px;
+  padding-bottom: -150px;
+  width: 40%;
+  height: auto;
+}
+
+.smalltext {
+  width: 100%;
+  text-align: center;
+  font-size: 450%;
+}
+
+.temp {
+  width: 100%;
+  text-align: center;
+  font-size: 300%;
+}
+
+#header {
+  padding: 1%;
+  background-color: rgba(15, 0, 58, 0.055);
+  display: grid;
+  grid-template-columns: 46% 46% 8%;
+  justify-items: center;
+}
+
+.weapons {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: auto;
+  align-content: center;
+}
+
+.item {
+  justify-self: center;
+  align-self: center;
+}
+
+.details {
+  position: absolute;
+  left: 0px;
+}
+
+.fadebox {
+  background-color: rgb(103, 103, 104);
+  padding-bottom: auto;
+  margin-top: -20px
+}
+
+.name {
+  text-align: center;
+  color: aliceblue;
+  font-size: 400%;
+  margin-bottom: -10px;
+}
+
+.description {
+  text-align: center;
+  color: aliceblue;
+  font-size: 200%;
+}
+
+.allstats {
+  width: 100%;
+  display: grid;
+  grid-row-gap: 60px;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: auto;
+  justify-items: center;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.stat {
+  text-align: center;
+  color: aliceblue;
+  font-size: 180%;
+}
