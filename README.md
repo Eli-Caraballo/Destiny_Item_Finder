@@ -4,6 +4,7 @@ Web application using Bungie’s API for finding details on specified items. Per
 ## Webpage Demo
 ![](Destiny_Item_Finder.gif)
 
+
 ## Requirements
 - Node 12.0.0
 - Sqlite3
