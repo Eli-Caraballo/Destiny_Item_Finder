@@ -2,7 +2,7 @@
 Web application using Bungie’s API for finding details on specified items
 
 ## Webpage Demo
-![](Destiny_Item_FInder.gif)
+![](Destiny_Item_Finder.gif)
 
 ## Requirements
 - Node 12.0.0
