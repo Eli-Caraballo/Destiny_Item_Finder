@@ -1,5 +1,5 @@
 # Destiny_Item_Finder
-Web application using Bungie’s API for finding details on specified items
+Web application using Bungie’s API for finding details on specified items. Personal project made in two days time.
 
 ## Webpage Demo
 ![](Destiny_Item_Finder.gif)
